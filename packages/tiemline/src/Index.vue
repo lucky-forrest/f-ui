@@ -2,6 +2,10 @@
   <div class="container">
     <h3>timeline组件</h3>
     <img :src="logo" />
+    <Button type="info">Info</Button>
+    <Button type="success">Success</Button>
+    <Button type="warning">Warning</Button>
+    <Button type="error">Error</Button>
   </div>
 </template>
 <script>
