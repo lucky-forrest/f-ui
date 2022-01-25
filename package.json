@@ -1,6 +1,6 @@
 {
   "name": "aaa-ff-ui",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "基于Vue组件包学习",
   "main": "/lib/aaa-ff-ui.umd.min.js",
   "keywords": [

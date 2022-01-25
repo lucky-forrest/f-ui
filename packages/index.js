@@ -20,8 +20,13 @@ if (typeof (window) !== 'undefined' && window.Vue) {
   install(window.Vue)
 }
 
+// 支持组件按需加载
+export {
+  TimeLine
+}
+
 export default {
   // 导出的对象必须有install,才能被Vue.use()方法安装
   install,
-  TimeLine
+  ...components
 }

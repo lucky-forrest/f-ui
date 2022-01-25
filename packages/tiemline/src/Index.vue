@@ -10,8 +10,12 @@
 </template>
 <script>
 import logo from './assets/images/logo.png'
+import { Button } from 'view-design'
 export default {
   name: 'TimeLine',
+  components: {
+    Button
+  },
   data () {
     return {
       logo
